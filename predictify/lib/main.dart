@@ -149,7 +149,7 @@ class _MainAppState extends State<MainApp> {
                         ),
                         child: const Text('Predict'),
                       ),
-                      const SizedBox(height: 20),
+                      const SizedBox(height: 40),
                       if (prediction != null)
                         Text(
                           prediction!,
